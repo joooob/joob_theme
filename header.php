@@ -27,6 +27,7 @@
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
+
 			$joob_theme_description = get_bloginfo( 'description', 'display' );
 			if ( $joob_theme_description || is_customize_preview() ) :
 				?>
@@ -41,6 +42,7 @@
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
 			) );
+
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

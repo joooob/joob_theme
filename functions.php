@@ -45,8 +45,8 @@ if ( ! function_exists( 'joob_theme_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'joob_theme' ),
-		) );
 
+		) );
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.

@@ -78,6 +78,7 @@ body {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+	text-align: center;
 }
 
 /* Grouping content
@@ -981,4 +982,10 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/* CSS Page d'accueil */
+.accueil{
+	text-align: center;
+
 }

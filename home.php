@@ -1,5 +1,6 @@
-<!doctype html>
-<html lang="fr">
+<?php
+get_header();
+?>
 <head>
   <meta charset="utf-8">
   <title>Accueil</title>
@@ -7,6 +8,7 @@
   <script src="script.js"></script>
 </head>
 <body>
+  <div class="accueil">
 	<h1>Recherchez</h1>
         <div>
           <input type="text" class="searchTerm" placeholder="type d'emplois">
@@ -40,5 +42,8 @@
       </div>
       <br/>
       <input type="submit" value="Valider">
+    </div>
 </body>
 </html>
+<?php
+get_footer();
