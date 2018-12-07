@@ -41,7 +41,7 @@ get_header();
         </div>
       </div>
       <br/>
-      <input type="submit" value="Valider">
+      <input class="valider" type="submit" value="Valider">
     </div>
 </body>
 </html>
