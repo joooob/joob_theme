@@ -1,18 +1,14 @@
 <?php
+
 get_header();
 ?>
-<head>
-  <meta charset="utf-8">
-  <title>Accueil</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
-<body>
+
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main">
+
+
   <div class="accueil">
 	<h1>Recherchez</h1>
-        <div>
-          <input type="text" class="searchTerm" placeholder="type d'emplois">
-        </div>
         <br/>
         <div>
           <input type="text" class="searchTerm" placeholder="Ville/Département/Région">
@@ -43,7 +39,12 @@ get_header();
       <br/>
       <input class="valider" type="submit" value="Valider">
     </div>
-</body>
-</html>
+</main><!-- #main -->
+  </div><!-- #primary -->
+
 <?php
+//get_sidebar();
 get_footer();
+
+
+

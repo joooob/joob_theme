@@ -163,3 +163,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * appelle custom functions
  */
 require get_template_directory() . '/inc/custom-functions.php';
+
+
+//MENU DE NAVIGATION PRINCIPALE
+register_nav_menus( array(
+        'Top' => 'Navigation principale',
+    ) );

@@ -7,7 +7,7 @@ function joob_custom_init()
    register_post_type(
       'emploi',
       array(
-        'label' => 'emplois',
+        'label' => 'emploi',
         'labels' => array(
           'name' => 'emplois',
           'singular_name' => 'emploi',
@@ -69,7 +69,7 @@ register_taxonomy(
     'search_items' => 'Rechercher parmi les distances',
     'popular_items' => 'distances les plus utilisées'
   ),
-  'hierarchical' => false
+  'hierarchical' => true
   )
 );
 
@@ -82,7 +82,7 @@ register_taxonomy(
     'name' => 'Type de contract',
     'singular_name' => 'Type de contract',
     'all_items' => 'Toutes les Type de contract',
-    'edit_item' => 'Éditer la Type de contract',
+    'edit_item' => 'Éditer le Type de contract',
     'view_item' => 'Voir la Type de contract',
     'update_item' => 'Mettre à jour la Type de contract',
     'add_new_item' => 'Ajouter une Type de contract',
@@ -90,7 +90,7 @@ register_taxonomy(
     'search_items' => 'Rechercher parmi les Type de contract',
     'popular_items' => 'Type de contract les plus utilisées'
   ),
-  'hierarchical' => false
+  'hierarchical' => true
   )
 );
 
@@ -111,7 +111,7 @@ register_taxonomy(
     'search_items' => 'Rechercher parmi les salaire',
     'popular_items' => 'salaire les plus utilisées'
   ),
-  'hierarchical' => false
+  'hierarchical' => true
   )
 );
 
@@ -132,7 +132,7 @@ register_taxonomy(
     'search_items' => 'Rechercher parmi les entreprise',
     'popular_items' => 'entreprise les plus utilisées'
   ),
-  'hierarchical' => false
+  'hierarchical' => true
   )
 );
 
@@ -146,7 +146,7 @@ register_taxonomy_for_object_type( 'entreprise', 'emploi' );
 register_post_type(
       'cv',
       array(
-        'label' => 'CV',
+        'label' => 'cv',
         'labels' => array(
           'name' => 'cv',
           'singular_name' => 'cv',
@@ -208,7 +208,7 @@ register_taxonomy(
     'search_items' => 'Rechercher parmi les expériences',
     'popular_items' => 'expériences les plus utilisées'
   ),
-  'hierarchical' => false
+  'hierarchical' => true
   )
 );
 
@@ -229,7 +229,7 @@ register_taxonomy(
     'search_items' => 'Rechercher parmi les Formation',
     'popular_items' => 'Formation les plus utilisées'
   ),
-  'hierarchical' => false
+  'hierarchical' => true
   )
 );
 register_taxonomy_for_object_type( 'domaine', 'cv' );
